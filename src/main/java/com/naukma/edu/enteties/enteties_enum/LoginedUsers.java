@@ -1,8 +1,10 @@
 package com.naukma.edu.enteties.enteties_enum;
 
+import com.naukma.edu.utils.Constants;
+
 public enum LoginedUsers {
-    OLHA("Olha", "admin", "admin"),
-    ERIK("Erik", "user", "user");
+    OLHA(Constants.OLHA, Constants.ADMIN, Constants.ADMIN),
+    ERIK(Constants.ERIK, Constants.USER, Constants.USER);
 
     private String name;
     private String login;
